@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.head-main{
+    margin-bottom: 9vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+    font-size: 2vw;
+}
+
+.head1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #928dd341;
+    width: 70vw;
+    border-radius: 10px;
+    padding: 0 1.5vw;
+    line-height: 2;
+}
+.head3{
+    font-family: 'MuseoModerno';
+}
+
+.head2,.head4{
+    font-family: 'archivo';
+    display: flex;
+    gap: 2vw;
+}
+
+.landing_page{
+    text-align: center;
+}
+
+.landing_page h1{
+    font-family: 'chivo';
+    margin-bottom: 2vw;
+    font-size: 8vw;
+}
+
+.landing_page img{
+    width: 90vw;
+    margin-bottom: 10vw;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 7vw;
+    height: 130vh;
+}
+
+.project{
+    margin: 0 2vw;
+    
+}
+.project img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.i{
+    height: 32vh;
+    width: 41vw;
+}
+.project h3 , .project p {
+    text-align: left;
+}
+.project p{
+    opacity: 50%;
+}
+
+.caption{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vw;
+}
+
+.caption h3 {
+    width: 65vw;
+}
+
+.list{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding: 4vw;
+}
+.list2 ul, .list3 ul {
+    list-style-type: none;
+
+}
+
+.footer{
+margin: 4em 4vw 18vh;
+text-align: center;
+}
+
+
+#form{
+font-family: 'Archivo';
+font-size: small;
+}
+
+
+.box{
+display: flex;
+justify-content: center;
+}
+
+
+
+.footer-box{
+width: 1.5rem;
+height: 2rem;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Archivo';
+border: 1px solid pink;
+border-radius: 5px;
+margin: 1rem;
+}
+
+
+
+input[type='submit']{
+background-color:#928DD3;
+color: white;
+width: 20rem;
+border-radius: 8px;
+line-height: 1.5;
+-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+cursor: pointer;
+}
+
+
+
+#skip{
+font-family: 'Archivo';
+color:#928DD3;
+font-size: small;
+background: none;
+border: none;
+cursor: pointer;
+}
+
+
+
+.page-footer{
+display: flex;
+justify-content: space-between;
+margin: 2vh 1vw 1vh 1vw;
+}
+#follow{
+font-family: 'Archivo';
+border: 1px solid pink;
+border-radius: 5px;
+padding: 10px;
+font-size: medium;
+cursor: pointer;
+margin:2vw 1vw 1vh 2vw ;
+}
